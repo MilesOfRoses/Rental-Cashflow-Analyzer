@@ -1,0 +1,95 @@
+body {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1f1ff+0,6dc0ff+100 */
+	background: #c1f1ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #c1f1ff 0%, #6dc0ff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #c1f1ff 0%,#6dc0ff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #c1f1ff 0%,#6dc0ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1f1ff', endColorstr='#6dc0ff',GradientType=0 ); /* IE6-9 */
+	background-attachment: fixed;
+}
+
+#wrapper {
+	font-family: verdana;
+	max-width: 400px;
+	min-width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	padding: 20px;
+	background-color: rgba(255,255,255,0.5);  /* half transparent */
+	margin: 10px;
+	border-radius: 15px;
+}
+
+input {
+	border: none;
+	height: 20px;
+	width: 312px;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+.instruction {
+	margin-left: 12px;
+}
+
+h2 {
+	text-align: center;
+	color: #47afff;
+}
+
+.units {
+	position: relative;
+	right: 11px; /* the units are the $ and % on the input fields. adding 11px to the right moves them to the left, so that they are inside of the input field */
+	padding: 0;
+	margin: 0;
+}
+
+.percent {
+	font-size: 80%; /* the percent symbol is smaller so that it takes up the same width as the dollar sign */
+}
+
+button {
+	width: 380px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	border: none;
+	font-size: 40px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+
+	/* shadow */
+	-webkit-box-shadow: 3px 4px 1px -1px rgba(0,0,0,0.48);
+	-moz-box-shadow: 3px 4px 1px -1px rgba(0,0,0,0.48);
+	box-shadow: 3px 4px 1px -1px rgba(0,0,0,0.48);
+
+	color: #47afff;
+}
+
+button:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+1,d4d9db+50,cbd2d6+51,b5b5b5+100 */
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f8f9 1%, #d4d9db 50%, #cbd2d6 51%, #b5b5b5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f6f8f9 1%,#d4d9db 50%,#cbd2d6 51%,#b5b5b5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f6f8f9 1%,#d4d9db 50%,#cbd2d6 51%,#b5b5b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#b5b5b5',GradientType=0 ); /* IE6-9 */
+}
+
+button:active {
+	/* when the button is pressed, the button moves down slightly and the shadow disapears, so that it looks like it was pressed in */
+  	transform: translateY(4px);
+  	-webkit-box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+	-moz-box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+	box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+}

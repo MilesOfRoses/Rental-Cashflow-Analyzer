@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.9"><!--enables responsive layout on smartphones-->
+	<title>Rental Propety Calculator</title>
+	<link rel="stylesheet" href="style.css?v=1.0">
+</head>
+<body>
+	<div id="wrapper">
+
+		<section id="upfrontInvestment">
+			<h2>Upfront Investment</h2>
+
+			<p class="instruction">Enter the Down Payment below<br>
+			<input type="number" id="downPayment" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Closing Costs below<br>
+			<input type="number" id="closingCosts" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Rehab Budget below <br>
+			<input type="number" id="rehabBudget" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter other Upfront Expences below <br>
+			<input type="number" id="otherExpences" value="0"><span class="units">$</span></p>
+
+			<b><p id="totalInvestmentOutput" value="0"></p></b>
+		</section> <!-- / upfront investment -->
+
+
+		<section id="income">
+			<h2>Monthly Income</h2>
+
+			<p class="instruction">Enter the number of rental units <br>
+			<input type="number" id="numberOfUnits" value="0"></p>
+
+			<p class="instruction">Enter the rental income per unit<br>
+			<input type="number" id="IncomePerUnit" value="0"><span class="units">$</span></p> 	
+		</section> <!--/income -->
+
+
+		<section id="expences">
+			<h2>Monthly Expences</h2>
+
+			<p class="instruction">Enter the Mortgage payment below <br>
+			<input type="number" id="mortgage" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter Property Tax AVG. / month <br>
+			<input type="number" id="taxes" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Home Insurance fee below <br>
+			<input type="number" id="insurance" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Electric Bill below <br>
+			<input type="number" id="electric" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Gas Bill below <br>
+			<input type="number" id="gas" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Water/Sewer Bill below <br>
+			<input type="number" id="water" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Garbage Bill below <br>
+			<input type="number" id="garbage" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Lawn / Snow Removal fee <br>
+			<input type="number" id="lawnSnow" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter other recurring expences below <br>
+			<input type="number" id="other" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Repair Savings below <br>
+			<input type="number" id="repairs" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter CapEx Savings below <br>
+			<input type="number" id="capEx" value="0"><span class="units">$</span></p>
+
+			<p class="instruction">Enter the Vacancy Rate below<br>
+			<input type="number" id="vacancyRate" value="0"><span class="units percent">%</span></p>
+
+			<p class="instruction">Enter Property Management rate <br>
+			<input type="number" id="management" value="0"><span class="units percent">%</span></p>
+		</section> <!--/expences -->
+
+
+		<section class="output">
+			<h2>Results</h2>
+			<p id="grossIncomeOutput"></p>
+			<p id="totalExpencesOutout" value="0"></p>
+			<p id="cashflowOutput" value="0"></p>
+			<p id="cashflowPerUnitOutput" value="0"></p>
+			<p id="CashOnCashROIOutput" value="0"></p>
+		</section> <!-- /output -->
+
+
+		<button onclick="calculate()"><b>CALCULATE</b></button>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
